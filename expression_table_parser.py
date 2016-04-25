@@ -1,4 +1,4 @@
-# This code was written to work with file 'expression_mul_gen_1.txt'. This program does the following:
+# This program does the following:
 
 # 1. It reads the file and creats a dictionary where gene_name is key while value is list. The lst[0] of the list is the gene count while subsequent items are expression values for genes in following order UT1 UT1 UT3 NC1 NC2 NC3 A1 A2 A3 C1 C2 C3 (if lst[0] is 1)
 # 2. If gene occured 2 or more times (per single sample) in expression dataset, the programe is capable of creating sublists which are elements of the data list above. Each sublist contains the FPKMs per gene PER SAMPLE(!) and in the same order as above.
