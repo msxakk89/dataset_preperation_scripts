@@ -1,4 +1,4 @@
-# This code was written to work with self-generated gene.perXLOC_exp files (in /home/msxakk/Desktop/day5_analysis1_cuffnorm_work filder). It reads the gene names in the second column and does the following: splits genes into seperate rows if they happen to occur in the same raw sepearated by (,) and assigns the same expression values per each sepearated gene (as the same XLOC ids) while the rest of raws are just outputed. The programme ignores newly discovered genes. This code does NOT identify genes that occur multiple times.
+# This code was written to read the gene names in the second column and does the following: splits genes into seperate rows if they happen to occur in the same raw sepearated by (,) and assigns the same expression values per each sepearated gene (as the same XLOC ids) while the rest of raws are just outputed. The programme ignores newly discovered genes. This code does NOT identify genes that occur multiple times.
 
 fname = raw_input("Enter input file name (if in local dir) or path:"'\n')
 
